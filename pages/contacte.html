@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <title>e-Portofoliu</title>
+</head>
+
+<body>
+
+    <header>
+        <a href="../index.html">
+            e-Portofoliu: Aurica Bacalov 
+            <i class="fas fa-chalkboard-teacher logo"></i>
+        </a>
+
+        <i id="menu-btn" class="fas fa-bars" onclick="show()"></i>
+
+    </header>
+
+    <div class="page-container">
+
+        <aside id="side-menu">
+            <div>
+                <img class="img=index" src="../images/AB.PNG"/>
+            </div>
+            <a href="../index.html">
+                Home
+                <i class="fas fa-clock"></i>
+            </a>
+            <a href="cv.html">
+                CV
+                <i class="fab fa-free-code-camp"></i>
+            </a>
+            <a href="pages/acte.html">
+                Acte normative
+                <i class="fab fa-free-code-camp"></i>
+            </a>
+            <a href="portofoliu.html">
+                Portofoliu
+                <i class="fas fa-file-signature"></i>
+            </a>
+            
+            <a href="consiliere.html">
+                Consiliere și orientare profesională
+                <i class="fas fa-user-tie"></i>
+            </a>
+            <a href="formare.html">
+                Formare
+                <i class="fas fa-user-graduate"></i>
+            </a>
+            <a href="evenimente.html">
+                Evenimente
+                <i class="fas fa-icons"></i>
+            </a>
+            <a href="jurnal.html">
+               Jurnal de lectură
+               <i class="fas fa-book-reader"></i>
+            </a>
+            <a href="proiecte.html">
+                Proiecte
+                <i class="fas fa-tasks"></i>
+            </a>
+            <a href="foto.html">
+                Galerie foto
+                <i class="fas fa-camera-retro"></i>
+            </a>
+            <a href="contacte.html">
+                Contacte
+                <i class="far fa-address-book"></i>
+            </a>
+            
+        </aside>
+
+        <main>
+            <img border="0" src="http://2.bp.blogspot.com/-iYf0OIOXvoY/TaybLcnXLcI/AAAAAAAAAAo/eLaTxAfoKW0/s1600/look_md_wht.gif">
+            <br/>
+            
+            <h2 class="title">Contacte</h2>
+            <div class="row">
+                <div class="col-50">
+                    <h3>Mă poți contacta dacă:</h3>
+
+                    <ul class="contact-list">
+                        <li>Vrei să faci voluntariat?</li>
+                        <li>Nu ai înțeles tema?</li>
+                        <li>Ai sugestii/propuneri?</li>
+                    </ul>
+                </div>
+
+                <div class="col-50">
+                    <h3>Date de contact:</h3>
+
+                    <ul class="contact-list">
+                        <li><b>Adresa:</b> str. Trandafirilor, nr.4</li>
+                        <li><b>Nr. de telefon:</b>+373 794 82 808</li>
+                        <li><b>e-mail:</b> auricabacalov@gmail.com</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-50">
+                    <iframe class="map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2757.4113258307!2d28.19622277981417!3d46.281801979221406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b6053ed82d5339%3A0xc95ac1286a81d598!2sLiceul%20Teoretic%20%22Dimitrie%20Cantemir%22!5e0!3m2!1sro!2s!4v1628888565425!5m2!1sro!2s"
+                        allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="col-50">
+                    <div class="contact-form">
+                        <form>
+                            <h3 class="centered">Poți lăsa un mesaj:</h3>
+                            <input type="text" placeholder="Nume, prenume" />
+                            <input type="e-mail" placeholder="e-mail" />
+                            <textarea rows="3" placeholder="Lasă un mesaj"></textarea>
+                            <input type="submit" value="Transmite">
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+            <h4 id="comment-post-message">Trimiteți un comentariu</h4>
+            <div class="commentBodyContainer">
+                <textarea name="commentBody" rows="4" cols="50" id="commentBodyField" onkeypress="BLOG_CMT_onCommentBodyChange()" placeholder="Introduceți comentariul dvs..."></textarea>
+            </div>
+        </main>
+
+    </div>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
